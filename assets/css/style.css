@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  /* color: #272829; */
+  /* color: #121212; */
 }
 
 a {
@@ -189,6 +190,7 @@ h6 {
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
+  font-family: Courier, monospace	;
 }
 
 .nav-menu a i,
@@ -287,6 +289,7 @@ h6 {
   background: url("../img/hero.jpeg") top right no-repeat;
   background-size: cover;
   position: relative;
+  /* filter: brightness(30%)  */
 }
 
 @media (min-width: 992px) {
@@ -295,9 +298,11 @@ h6 {
   }
 }
 
+
+
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.606);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -311,6 +316,16 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
+}
+
+#hero .white-text {
+  color: white;
+  font-family: Courier, monospace;
+}
+
+
+#hero .blue-text {
+  color: rgb(54, 155, 255);
 }
 
 #hero p {
@@ -393,6 +408,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #45505b;
+   font-family: Courier, monospace;
 }
 
 .section-title h2::before {
@@ -455,6 +471,12 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+/* .about{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 /*--------------------------------------------------------------
 # Facts
@@ -498,9 +520,18 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
+.facts .my_skills{
+  height: 80;
+  text-align: center;
+
+}
+
+.about .skill_icon{
+  font-size: 70px;
+  padding: 20px;
+  width: 20%;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
