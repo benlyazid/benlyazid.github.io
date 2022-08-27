@@ -13,7 +13,8 @@ body {
   /* color: #272829; */
   /* color: #121212; */
   /* /* background-color: #213349; */
-  background-image: linear-gradient(180deg, #3C4E77, #213349);
+  /* background-image: linear-gradient(180deg, #00010D, #213349); */
+  background-image: linear-gradient(180deg, #033460, #00010D);
 
 }
 
@@ -226,7 +227,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: #033460;
 }
 
 .nav-menu a:hover span,
@@ -292,7 +293,7 @@ h6 {
   background: url("../img/hero.jpeg") top right no-repeat;
   background-size: cover;
   position: relative;
-  /* filter: brightness(30%)  */
+  filter: grayscale(.6)
 }
 
 @media (min-width: 992px) {
@@ -305,7 +306,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.606);
+  background: rgba(0, 0, 0, 0.206);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -329,7 +330,8 @@ h6 {
 
 #hero .blue-text {
   /* color: rgb(54, 155, 255); */
-  color: #009CF8
+  color: #0468BF
+  /* color: #009CF8 */
 }
 
 #hero p {
@@ -483,6 +485,10 @@ section {
   justify-content: center;
   align-items: center;
 }
+.about .aboutTxt{
+   color: #00010D;
+   font-family: Courier, monospace	;
+  }
 
 /*--------------------------------------------------------------
 # Facts
@@ -637,6 +643,12 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+.portfolio{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio #portfolio-flters {
@@ -1156,6 +1168,9 @@ section {
   padding: 15px;
 }
 
+#hero .miniIcon{
+  color: rgb(255, 255, 255);
+} 
 .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
