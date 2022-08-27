@@ -12,6 +12,9 @@ body {
   font-family: "Open Sans", sans-serif;
   /* color: #272829; */
   /* color: #121212; */
+  /* /* background-color: #213349; */
+  background-image: linear-gradient(180deg, #3C4E77, #213349);
+
 }
 
 a {
@@ -325,7 +328,8 @@ h6 {
 
 
 #hero .blue-text {
-  color: rgb(54, 155, 255);
+  /* color: rgb(54, 155, 255); */
+  color: #009CF8
 }
 
 #hero p {
@@ -407,8 +411,10 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  /* color: #45505b; */
+  color: #ffffff;
    font-family: Courier, monospace;
+   font-weight: 100;
 }
 
 .section-title h2::before {
@@ -471,12 +477,12 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-/* .about{
+.about{
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
 /*--------------------------------------------------------------
 # Facts
