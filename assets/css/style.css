@@ -161,7 +161,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .nav-menu {
   padding: 0;
@@ -249,7 +249,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   position: fixed;
@@ -293,7 +293,8 @@ h6 {
   background: url("../img/hero3.jpeg") top right no-repeat;
   background-size: cover;
   position: relative;
-  filter: grayscale(.6)
+  filter: grayscale(.5);
+  background-position: left
 }
 
 @media (min-width: 992px) {
@@ -330,7 +331,8 @@ h6 {
 
 #hero .blue-text {
   /* color: rgb(54, 155, 255); */
-  color: #0468BF
+  color: #0468BF;
+  background-color: white;
   /* color: #009CF8 */
 }
 
@@ -645,7 +647,8 @@ section {
   margin-bottom: 30px;
 }
 .portfolio{
-    height: 100vh;
+    /* height: 100vh; */
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1174,7 +1177,7 @@ section {
 
 #hero .miniIcon{
   color: rgb(255, 255, 255);
-} 
+}
 .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
