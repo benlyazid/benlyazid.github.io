@@ -488,7 +488,7 @@ section {
   align-items: center;
 }
 .about .aboutTxt{
-   color: #00010D;
+   color: #dfe0e4;
    font-family: Courier, monospace	;
   }
 
@@ -692,6 +692,9 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .portfolio .portfolio-wrap::before {
