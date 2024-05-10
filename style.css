@@ -147,17 +147,19 @@ body {
   }
 }
 
+.text-gold {
+  color: #e0bd78;
+}
+/********** New css ****/
+/* section:nth-child(2n) {
+  background-color: rgb(172 193 239 / 20%);
+} */
+
+
+
 @media (max-width: 768px) {
   .btn-register {
     font-size: 14px;
     padding: 10px 30px;
   }
 }
-
-.text-gold {
-  color: #e0bd78;
-}
-
-
-
-
